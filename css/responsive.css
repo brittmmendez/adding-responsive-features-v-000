@@ -59,5 +59,9 @@
   height: auto;
   padding-bottom: 20px;
 }
-
+.col-3 p {
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-count: 1;
+}
 }
