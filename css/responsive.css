@@ -31,8 +31,11 @@
   top:72px;
 }
 
+..col-3 p {
+  -moz-column-rule: 1px dotted #ccc;
+  -webkit-column-rule: 1px dotted #ccc;
+  column-count: 2;
 }
-
 }
 
 @media only screen and (max-width:800px) {
